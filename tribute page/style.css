@@ -1,0 +1,56 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color: black;
+  color:white;
+}
+
+.main-img{
+  width: 660px;
+  height: 445px;
+  border-radius:10%;
+  padding-bottom:10px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header h1{
+  color: orange;
+  text-shadow: 2px 4px 4px black;
+  font-family:serif;
+  font-size:40px;
+  text-align: middle;
+  padding-top: 200px;
+}
+
+.header h4{
+  text-align: end;
+}
+
+.points{ 
+  background-color: grey;
+  border-radius: 20px;
+  color:black;
+}
+
+.footer p{
+  text-align: center;
+}
+
+.footer a{
+  text-align: center;
+  color:skyblue;
+}
+
+iframe{
+  display: block;
+  margin: auto;
+  padding: auto;
+}
